@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "League Spartan", sans-serif;
+    background: #070724;
+}
+header{
+    .container{
+        max-width: 1440px;
+        margin: 30px auto 0px auto;
+        .navigation{
+            max-width: 1240px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nav{
+                ul{
+                    display: flex;  
+                    li{
+                        list-style-type: none;
+                        a{
+                            text-decoration: none;
+                            margin-left: 47px;
+                            color: #FFF;
+                            font-size: 15px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 1px;
+                            text-align: left;
+                        }
+                    }
+                    .burger{
+                        img{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .line{
+            max-width: 1240px;
+            height: 1px;
+            top: 85px;
+            gap: 0px;
+            opacity: 0.2px;
+            background-color: gray;
+            margin-top:27px;
+        }
+        .wrapper{
+            max-width: 1240px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .banner-img{
+                margin-top: 242px;
+            }
+            .banner-item{
+                margin-top: 126px;
+                h1{
+                    font-size: 80px;
+                    font-weight: 400;
+                    line-height: 103.52px;
+                    text-align: left;
+                    color: #FFFFFF;      
+                    width: 263px;   
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    text-align: left;
+                    color: #FFFFFF;  
+                    max-width:263px;     
+                    margin-top: 23px;    
+                }   
+                .btn{
+                    margin-top: 17px;   
+                    button{
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        letter-spacing: 2.5714285373687744px;
+                        text-align: left;
+                        color: #FFFFFF;
+                        background: #419EBB;
+                        padding: 12px 183px 11px 74px;
+                        border: none;
+                        max-width: 350px;
+                        height: 48px;
+                        cursor: pointer;
+                        &:hover{
+                            background: #D8D8D8;
+                        }
+                    }
+                }
+                .btn-one{
+                    button{
+                        border: 1px solid gray;
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        letter-spacing: 2.5714285373687744px;
+                        text-align: left;
+                        color: #FFFFFF;
+                        background: transparent;
+                        padding: 12px 120px 11px 74px;
+                        cursor: pointer;
+                        margin-top: 16px;
+                        &:hover{
+                            background: #D8D8D8;
+                        }
+                    }
+                }
+                .btn-two{
+                    button{
+                        border: 1px solid gray;
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        
+                        letter-spacing: 2.5714285373687744px;
+                        text-align: left;
+                        color: #FFFFFF;
+                        background: transparent;
+                        padding: 12px 130px 11px 74px;
+                        cursor: pointer;
+                        margin-top: 16px;
+                        &:hover{
+                            background: #D8D8D8;
+                        }
+                    }
+                }
+            }
+        }
+        .banner-content{
+            .product{
+                display: flex;
+                justify-content: space-between;
+                max-width: 1240px;
+                margin-top: 120px;
+                margin: 0 auto;
+                margin-top: 87px;
+                .product-item{
+                    max-width: 255px;
+                    height: 128px;
+                    border: 1px solid gray;
+                    background-color: transparent;
+                    p{
+                        font-size: 11px;
+                        font-weight: 700;
+                        line-height: 25px;
+                        letter-spacing: 1px;
+                        text-align: left;
+                        color: gray;
+                        margin-left: 23px;
+                        margin-top: 20px;
+                    }
+                    h1{
+                        font-size: 40px;
+                        font-weight: 400;
+                        line-height: 51.76px;
+                        letter-spacing: -1.5px;
+                        text-align: left;
+                        color: #FFFFFF;
+                        margin-left: 23px;
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:900px) {
+    header{
+        .container{
+            width: 900px;
+            margin: 30px auto 0px auto;
+            .navigation{
+                width: 850px;
+                display: flex;
+                flex-direction: column;
+                .nav{
+                    ul{
+                        display: flex;  
+                        margin-top: 10px;
+                        li{
+                            list-style-type: none;
+                            a{
+                                text-decoration: none;
+                                margin-left: 47px;
+                                color: #FFF;
+                                font-size: 15px;
+                                font-weight: 700;
+                                line-height: 25px;
+                                letter-spacing: 1px;
+                                text-align: left;
+                            }
+                        }
+                        .burger{
+                            img{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .line{
+                width: 850px;
+                height: 1px;
+                top: 85px;
+                gap: 0px;
+                opacity: 0.2px;
+                background-color: gray;
+                margin-top:27px;
+            }
+            .wrapper{
+                width: 850px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                .banner-img{
+                    margin-top: 242px;
+                }
+                .banner-item{
+                    margin-top: 126px;
+                    h1{
+                        font-size: 80px;
+                        font-weight: 400;
+                        line-height: 103.52px;
+                        text-align: left;
+                        color: #FFFFFF;      
+                        width: 263px;   
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        text-align: left;
+                        color: #FFFFFF;  
+                        width: 263px;
+                        margin-top: 23px;    
+                    }   
+                    .btn{
+                        margin-top: 17px;   
+                        button{
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 2.5714285373687744px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            background: #419EBB;
+                            padding: 12px 183px 11px 74px;
+                            border: none;
+                            width: 350px;
+                            height: 48px;
+                            cursor: pointer;
+                            &:hover{
+                                background: #D8D8D8;
+                            }
+                        }
+                    }
+                    .btn-one{
+                        button{
+                            border: 1px solid gray;
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 2.5714285373687744px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            background: transparent;
+                            padding: 12px 84px 11px 74px;
+                            width: 350px;
+                            height: 48px;
+                            cursor: pointer;
+                            margin-top: 16px;
+                            &:hover{
+                                background: #D8D8D8;
+                            }
+                        }
+                    }
+                    .btn-two{
+                        button{
+                            border: 1px solid gray;
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 2.5714285373687744px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            background: transparent;
+                            padding: 12px 84px 11px 74px;
+                            width: 350px;
+                            height: 48px;
+                            cursor: pointer;
+                            margin-top: 16px;
+                            &:hover{
+                                background: #D8D8D8;
+                            }
+                        }
+                    }
+                }
+            }
+            .banner-content{
+                
+                .product{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 800px;
+                    margin-top: 120px;
+                    margin: 0 auto;
+                    margin-top: 87px;
+                    .product-item{
+                        width: 164px;
+                        height: 88px;
+                        border: 1px solid gray;
+                        background-color: transparent;
+                        p{
+                            font-size: 8px;
+                            font-weight: 700;
+                            line-height: 16px;
+                            letter-spacing: 0.7272727489471436px;
+                            text-align: left;
+                            color: gray;
+                            width: 309px;
+                            margin-left: 23px;
+                            margin-top: 20px;
+                        }
+                        h1{
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 31.05px;
+                            letter-spacing: -0.8999999761581421px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            margin-left: 23px;
+                            margin-top: 4px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:750px) {
+    header{
+        .container{
+            width: 750px;
+            margin: 30px auto 0px auto;
+            .navigation{
+                width: 720px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .nav{
+                    ul{
+                        li{
+                            a{
+                                display: none;
+                            }
+                        }
+                        .burger{
+                            img{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+            .line{
+                width: 720px;
+                height: 1px;
+                top: 85px;
+                gap: 0px;
+                opacity: 0.2px;
+                background-color: gray;
+                margin-top:27px;
+            }
+            .wrapper{
+                width: 850px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                .banner-img{
+                    margin-top: 242px;
+                }
+                .banner-item{
+                    margin-top: 126px;
+                    h1{
+                        font-size: 80px;
+                        font-weight: 400;
+                        line-height: 103.52px;
+                        text-align: left;
+                        color: #FFFFFF;      
+                        width: 263px;   
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        text-align: left;
+                        color: #FFFFFF;  
+                        width: 263px;     
+                        margin-top: 23px;    
+                    }   
+                    .btn{
+                        margin-top: 17px;   
+                        button{
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 2.5714285373687744px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            background: #419EBB;
+                            padding: 12px 183px 11px 74px;
+                            border: none;
+                            width: 350px;
+                            height: 48px;
+                            cursor: pointer;
+                            &:hover{
+                                background: #D8D8D8;
+                            }
+                        }
+                    }
+                    .btn-one{
+                        button{
+                            border: 1px solid gray;
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 2.5714285373687744px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            background: transparent;
+                            padding: 12px 84px 11px 74px;
+                            width: 350px;
+                            height: 48px;
+                            cursor: pointer;
+                            margin-top: 16px;
+                            &:hover{
+                                background: #D8D8D8;
+                            }
+                        }
+                    }
+                    .btn-two{
+                        button{
+                            border: 1px solid gray;
+                            font-size: 12px;
+                            font-weight: 700;
+                            line-height: 25px;
+                            letter-spacing: 2.5714285373687744px;
+                            text-align: left;
+                            
+                            color: #FFFFFF;
+                            background: transparent;
+                            padding: 12px 84px 11px 74px;
+                            width: 350px;
+                            height: 48px;
+                            cursor: pointer;
+                            margin-top: 16px;
+                            &:hover{
+                                background: #D8D8D8;
+                            }
+                        }
+                    }
+                }
+            }
+            .banner-content{
+                .product{
+                    display: flex;
+                    flex-direction: column;
+                    width: 700px;
+                    margin-top: 120px;
+                    margin-left: 280px;
+                    .product-item{
+                        width: 327px        ;
+                        height: 88px;
+                        border: 1px solid gray;
+                        background-color: transparent;
+                        p{
+                            font-size: 8px;
+                            font-weight: 700;
+                            line-height: 16px;
+                            letter-spacing: 0.7272727489471436px;
+                            text-align: left;
+                            color: gray;
+                            width: 309px;
+                            margin-left: 23px;
+                            margin-top: 20px;
+                        }
+                        h1{
+                            font-size: 24px;
+                            font-weight: 400;
+                            line-height: 31.05px;
+                            letter-spacing: -0.8999999761581421px;
+                            text-align: left;
+                            color: #FFFFFF;
+                            margin-left: 23px;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
