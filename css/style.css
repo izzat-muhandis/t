@@ -291,18 +291,20 @@ header .container .banner-content .product .product-item h1 {
   header .container .banner-content .product {
     display: flex;
     justify-content: space-between;
-    width: 800px;
+    flex-direction: column;
+    width: 327px;
     margin-top: 120px;
     margin: 0 auto;
-    margin-top: 87px;
+    margin-top: 48px;
   }
-  header .container .banner-content .product .product-item {
+  header .container .banner-content .product .product-item1 {
     width: 164px;
     height: 88px;
     border: 1px solid gray;
     background-color: transparent;
+    background-color: #D8D8D8;
   }
-  header .container .banner-content .product .product-item p {
+  header .container .banner-content .product .product-item1 p {
     font-size: 8px;
     font-weight: 700;
     line-height: 16px;
@@ -313,7 +315,91 @@ header .container .banner-content .product .product-item h1 {
     margin-left: 23px;
     margin-top: 20px;
   }
-  header .container .banner-content .product .product-item h1 {
+  header .container .banner-content .product .product-item1 h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.05px;
+    letter-spacing: -0.8999999762px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 23px;
+    margin-top: 4px;
+  }
+  header .container .banner-content .product .product-item2 {
+    width: 164px;
+    height: 88px;
+    border: 1px solid gray;
+    background-color: transparent;
+    background-color: #D8D8D8;
+  }
+  header .container .banner-content .product .product-item2 p {
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.7272727489px;
+    text-align: left;
+    color: gray;
+    width: 309px;
+    margin-left: 23px;
+    margin-top: 20px;
+  }
+  header .container .banner-content .product .product-item2 h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.05px;
+    letter-spacing: -0.8999999762px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 23px;
+    margin-top: 4px;
+  }
+  header .container .banner-content .product .product-item3 {
+    width: 164px;
+    height: 88px;
+    border: 1px solid gray;
+    background-color: transparent;
+    background-color: #D8D8D8;
+  }
+  header .container .banner-content .product .product-item3 p {
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.7272727489px;
+    text-align: left;
+    color: gray;
+    width: 309px;
+    margin-left: 23px;
+    margin-top: 20px;
+  }
+  header .container .banner-content .product .product-item3 h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.05px;
+    letter-spacing: -0.8999999762px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 23px;
+    margin-top: 4px;
+  }
+  header .container .banner-content .product .product-item4 {
+    width: 164px;
+    height: 88px;
+    border: 1px solid gray;
+    background-color: transparent;
+    background-color: #D8D8D8;
+  }
+  header .container .banner-content .product .product-item4 p {
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.7272727489px;
+    text-align: left;
+    color: gray;
+    width: 309px;
+    margin-left: 23px;
+    margin-top: 20px;
+  }
+  header .container .banner-content .product .product-item4 h1 {
     font-size: 24px;
     font-weight: 400;
     line-height: 31.05px;
